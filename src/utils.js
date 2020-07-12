@@ -1,6 +1,7 @@
 const paymentMethodsConfig = {
-    shopperReference: 'Checkout Components sample code test',
-    reference: 'Checkout Components sample code test',
+    shopperReference: 'Shopper who REALLY wants to get hired',
+    // would it be ws_680668@Company.AdyenRecruitment instead? The Web Service user ?
+    reference: 'andreiaFigueiredo_adyenrecruitment',
     countryCode: 'NL',
     amount: {
         value: 1000,
@@ -9,11 +10,12 @@ const paymentMethodsConfig = {
 };
 
 const paymentsDefaultConfig = {
-    shopperReference: 'Checkout Components sample code test',
-    reference: 'Checkout Components sample code test',
+    shopperReference: 'Shopper who REALLY wants to get hired',
+     // would it be ws_680668@Company.AdyenRecruitment instead? The Web Service user ?
+    reference: 'andreiaFigueiredo_adyenrecruitment',
     countryCode: 'NL',
     channel: 'Web',
-    returnUrl: 'https://your-company.com/',
+    returnUrl: 'https://docs.adyen.com/',
     amount: {
         value: 1000,
         currency: 'EUR'
